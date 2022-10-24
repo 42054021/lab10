@@ -5,7 +5,7 @@ plt.style.use('seaborn')
 
 
 st.title('California Housing Data(1990) by Yuxuan Tian')
-df = pd.read_csv('D:\py\my-streamlit\housing.csv')
+df = pd.read_csv('housing.csv')
 
 Price_filter = st.slider('Maximal Median Housing Price:', 0, 500001, 200000) 
 
